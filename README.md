@@ -8,7 +8,7 @@
 
 # 다운로드
 
-1. 안드로이드 설치파일 [hhi_0.01_alpha](https://github.com/wldygus21/JYH_HHI/blob/master/HHI.apk) (github.com/wldygus21/JYH_HHI/blob/master/HHI.apk)를 눌러서 다운로드 하실수 있습니다.
+1. 안드로이드 설치파일 [hhi_0.01_alpha](https://github.com/wldygus21/JYH_HHI/blob/master/HHI.zip) (github.com/wldygus21/JYH_HHI/blob/master/HHI.zip)를 눌러서 다운로드 하실수 있습니다.
 2. 웹 사이트 [여기](http://jikkk9.dothome.co.kr/hhi) (jikkk9.dothome.co.kr/hhi)를 눌러 브라우저에서 이용할수 있습니다.
 
 # 문의
