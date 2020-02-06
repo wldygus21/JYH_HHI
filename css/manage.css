@@ -1,0 +1,96 @@
+/*  manage0 css*/
+
+#safety>p{
+	margin-bottom: 50px;
+	
+}
+#safety>p>span{
+	
+	font-size: 1.3em;
+	color: #007236;
+}
+
+.box-certi {
+	margin-top: 50px;
+}
+
+
+.box-certi>p {
+	font-size: 1.5em;
+	color: #777;
+}
+.box-certi>p>span {
+	color: #0c4da2;
+}
+
+#img-ethic h4,
+#ethics>p>span {
+	color: #0c4da2;
+}
+
+#img-certibox {
+	overflow: auto;
+	
+	margin: 0px 30px;
+	
+}
+.imgcerti {
+	width: calc((100% - 20px) / 3);
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	
+	
+}
+.imgcerti:last-of-type {
+	margin-right: 0px;
+}
+
+
+.imgcerti img{
+	max-width: 100%;
+}
+
+.imgcerti:last-of-type img {
+	margin-right: 0;
+	
+}
+.imgcerti>p{
+	
+}
+
+
+/*  manage1 css*/
+
+#img-ethic {
+	background-image: url(../images/phil_bg_0.gif); 
+	background-repeat: no-repeat;
+	background-position: right 10px; 
+	
+}
+
+#img-ethics img{
+}
+
+@media all and (max-width: 900px){
+	
+	#img-ethic{
+		background-image:url("");
+	}
+	
+	
+	
+}
+
+@media all and (max-width: 500px){
+	
+	#img-ethic{
+		background-image:url("");
+	}
+	.imgcerti {
+		float: none;
+		width: 100%;
+	}
+	
+	
+}

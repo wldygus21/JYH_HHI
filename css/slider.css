@@ -1,0 +1,85 @@
+/* 그림사이즈가 안작아 져서 */
+
+#slider {
+    max-width: 900px;
+/*    auto를 왜줬지?*/
+    margin: 50px auto;
+    padding-bottom: 20px;
+
+    
+}
+
+#slider .slide p{
+    
+    text-align: center;
+    height: 30px;
+    margin-top: 0.8em;
+}
+
+
+
+#slider .slide img {
+/*    원래 화면크기 이상으로 안나오게 하기위해 max-width*/
+    width: 100%;
+
+}
+
+.slick-arrow {
+    width: 31px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    position: absolute;
+    background-size: contain;
+    z-index: 1000;
+    top: calc(50% - 58px);
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    filter: invert();
+}
+.slick-prev {
+    background-image: url(../images/slider_btn_prev.png);
+    left: -41px;
+}
+.slick-next {
+    background-image: url(../images/slider_btn_next.png);
+    right: -41px;
+}
+
+.slick-dots { 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    overflow: auto;
+}
+.slick-dots li {
+    float: left;
+}
+.slick-dots li button {
+    color: transparent;
+    margin: 0px 5px; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #4a70a3;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.slick-dots .slick-active button,
+.slick-dots button:hover
+{
+    background-color: #4a70a3;
+    
+}
+
+@media all and (max-width: 999px){
+    #slider {
+        width: calc(100% - 82px);
+    }
+    
+}

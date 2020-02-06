@@ -1,0 +1,181 @@
+.listboard {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.searchbox {
+	border: 1px solid #e2e2e2;
+	background-color: #f9f9f9;
+	padding: 15px;
+	text-align: center;
+	
+}
+
+#stype,
+#keyword,
+#sbtn {
+	height: 35px;
+	
+/*	해당요소의 수직 상 어느 위치에 텍스트를 정렬할 지 설정.*/
+	vertical-align: middle;
+	
+}
+
+#stype {
+	max-width: 200px;
+	width: 20%;
+	font-size: 0.95em;
+	padding-left: 3px;
+	letter-spacing: -0.05em;
+	
+}
+
+#keyword {
+	max-height: 390px;
+	width: 50%;
+	letter-spacing: -0.05em;
+	font-size: 0.95em;
+	padding-left: 3px;
+	
+}
+
+#sbtn {
+	background-color: #5d5d5d;
+	color: white;
+	border: none;
+	padding: 0px 20px;
+	
+}
+
+/*  list 부분 스타일 */
+
+.list {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.listitem {
+	display: block;
+	overflow: auto;
+	margin-bottom: 45px;
+}
+
+.listitem .ratiobox {
+	width: 20%;
+	float: left;
+	height: 144px;
+}
+.listtxt { 
+	width: 75%;
+	height: 144px;
+	float: right;
+}
+
+.listtxt p {
+
+	color: #0e468f;
+	font-size: 1.05em;
+	margin-bottom: 0.3em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.listtxt div {
+	color: #262626;
+	font-size: 0.93em;
+	line-height: 1.6em;
+	height: 70px;
+	overflow: hidden;
+}
+
+.listtxt>span {
+	
+	font-size: 0.8em;
+	color: #555;
+	display: block;
+	margin-top: 1.0em;
+
+
+}
+
+
+/* 페이지 */
+.pagi{
+    border-top:1px solid #cdcdcd;
+    padding:30px 0px;
+    text-align: center;
+}
+.pagi a{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.pagi a:not(.pagi-num){
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pagi-num{
+    border:1px solid #dbdbdb;
+    padding:0px 0.5em;
+    color:#262626;
+}
+.pagi-num:hover{
+    color:#0c4da2;
+}
+.pactive{
+    background-color: #0c4da2;
+    color:white;
+    font-weight: bold;
+    border:none;
+    padding:0px 0.6em;
+}
+.pactive:hover{
+    color:white;
+}
+.pagi-first{
+    background-image: url(../images/board_pagi_first.gif);
+}
+.pagi-prev{
+    background-image: url(../images/board_pagi_prev.gif);
+    
+}
+.pagi-next{
+    background-image: url(../images/board_pagi_next.gif);
+
+}
+.pagi-last{
+    background-image: url(../images/board_pagi_last.gif);
+}
+
+
+
+
+
+
+
+@media all and (max-width:500px){
+	.listitem .ratiobox,
+	.listtxt {
+		float: none;
+		width: 100%;
+			
+	}
+	.listtxt {
+		margin-top: 0.5em;
+	}
+}
+
+
+@media all and (max-width:400px){
+	#stype {width:18%;}
+	#keyword {width:50%;}
+	.pagi-num{
+       letter-spacing: -0.1em;
+       font-size:0.9em;
+       padding:0px 0.3em;
+    }
+	
+	
+}

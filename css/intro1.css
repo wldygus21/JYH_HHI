@@ -1,0 +1,115 @@
+#history {
+    height: 550px;
+    background-image: url(../images/stat_bg_0.jpg);
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#history ul {
+    list-style: none;
+    position: absolute;
+    background-color: rgba(5,35,88,0.9);
+    color: white;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    padding: 12px 20px;
+    bottom: 0px;
+    width: 540px;
+    
+    
+    
+}
+
+#history>ul>li {
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    padding: 0.7em 0;
+    overflow: auto;
+}
+#history>ul>li:last-of-type {
+    border-bottom: none;
+    
+}
+#history>ul>li>span:first-of-type {
+    width:92px;
+    display: block;
+    float: left;
+}
+
+#history>ul>li>span:last-of-type {
+    display: block;
+    width: calc(100% - 92px);
+    float: left;
+}
+
+#history>ul>li>span:last-of-type::before{
+    content: "|";
+    position: absolute;
+    margin-left: -10px;
+    opacity: 0.2;
+    font-size: 0.9em;
+    
+}
+
+@media all and (max-width:1025px) {
+
+    #history {
+        
+        height: 350px;
+    }
+
+}
+
+@media all and (max-width:580px) {
+    
+    #history {
+        height: 450px;
+        font-size: 0.9em;
+        background-position: center;
+    }
+    
+    #history ul{
+        width: 100%;
+            
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
